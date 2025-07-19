@@ -37,4 +37,20 @@ from mymodule import hello
 hello()  # Should print "Hello from Rez package!"
 ```
 
+4. **Check package**
 
+```bash
+rez search my_package
+```
+
+5. **Run with version**
+
+```bash
+rez env my_package-1.0.0 -- python
+```
+
+
+6. **Check root folder**
+```bash
+rez env my_package-1.1.0 -- printenv REZ_MY_PACKAGE_ROOT
+```
