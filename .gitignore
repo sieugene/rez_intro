@@ -1,0 +1,3 @@
+packages/*/build/
+packages/*/*/__pycache__/
+packages/*/*/install/
