@@ -2,7 +2,7 @@ name = "my_tool"
 version = "1.0.0"
 requires = ["maya-2024"]
 
-build_command = "echo skipping build"
+build_command = 'python {root}/build.py {install}'
 
 def commands():
-    env.PYTHONPATH.append("{root}/my_tool")
+    env.PYTHONPATH.append("{root}/python")
